@@ -20,3 +20,5 @@ passport.serializeUser((user, done) => {
 passport.deserializeUser((user, done) => {
   // Code to deserialize user data
 });
+
+module.exports = passport;
