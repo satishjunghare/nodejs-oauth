@@ -14,7 +14,7 @@ app.use(passport.session());
 app.use('/', authRoutes);
 app.use('/', accountRoutes);
 
-// Set EJS as the view engine
+// Set EJS as the view Engine
 app.set('view engine', 'ejs');
 
 // Set the views directory
